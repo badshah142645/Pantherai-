@@ -157,7 +157,28 @@ export async function POST(request: NextRequest) {
               messages: [
                 {
                   role: "system",
-                  content: "You are Panther AI, a helpful and intelligent assistant. Provide clear, accurate, and engaging responses."
+                  content: `You are Panther AI, a helpful and intelligent assistant. Provide clear, accurate, and engaging responses.
+
+CORE SEARCH CAPABILITIES:
+- If information is beyond your training data or needs current/up-to-date information, respond with exactly: 'SEARCH_REQUIRED: [precise search query]'
+- For recent events, news, facts, statistics, or time-sensitive information, automatically search the web
+- Use the same language as the user's question for search queries
+- For questions you can answer confidently without search, respond normally
+- Always prioritize the latest information unless user explicitly requests historical data
+
+SEARCH DECISION RULES:
+1. If the user asks about recent events, specific facts, or information beyond your training data, you MUST automatically search the web for accurate information.
+2. When you need to search, respond with exactly: 'SEARCH_REQUIRED: [search query]'
+3. Use the same language as the user's question for the search query.
+4. For questions you can answer confidently without search, respond normally.
+5. Always prioritize the latest information unless user explicitly requests historical data.
+
+RESPONSE GUIDELINES:
+- For simple queries: respond clearly and briefly
+- For complex or technical queries: explain step-by-step, use markdown formatting
+- Detect the user's language automatically and reply in that language
+- Cite sources via markdown links when using web-based information
+- Never show raw placeholders like SEARCH_REQUIRED in final responses - only use them as markers for the system to handle`
                 },
                 {
                   role: "user",
@@ -173,6 +194,43 @@ export async function POST(request: NextRequest) {
         if (sarvamResponse.ok) {
           const sarvamData = await sarvamResponse.json();
           response = sarvamData.choices[0].message.content;
+
+          // Check if AI decided to search
+          if (response.includes('SEARCH_REQUIRED:')) {
+            const searchQuery = response.split('SEARCH_REQUIRED:', 1)[1].trim();
+            console.log(`AI requested search for: ${searchQuery}`);
+
+            // Perform search
+            try {
+              const searchResponse = await fetch(`${request.nextUrl.origin}/api/search`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                  query: searchQuery,
+                  deepsearch: false,
+                  deepresearch: false,
+                  includeYouTube: true
+                })
+              });
+
+              if (searchResponse.ok) {
+                const searchData = await searchResponse.json();
+                sources = searchData.results || [];
+
+                // Format search results into response
+                const searchResultsText = sources.slice(0, 5).map((r: SearchResult, i: number) =>
+                  `${i + 1}. [${r.title}](${r.url})\n   ${r.snippet}\n`
+                ).join('\n');
+
+                response = `🔍 **Search Results for "${searchQuery}"**\n\n${searchResultsText}\n\nBased on the latest available information from ${sources.length} sources.`;
+              } else {
+                response = `I tried to search for "${searchQuery}" but encountered an issue. Here's what I can tell you based on my knowledge: ${response.split('SEARCH_REQUIRED:')[0].trim()}`;
+              }
+            } catch (searchError) {
+              console.error('Search integration error:', searchError);
+              response = `I tried to search for current information but encountered an issue. Here's what I can tell you: ${response.split('SEARCH_REQUIRED:')[0].trim()}`;
+            }
+          }
         } else {
           throw new Error(`Sarvam API error: ${sarvamResponse.status}`);
         }

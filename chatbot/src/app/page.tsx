@@ -31,6 +31,7 @@ export default function ChatPage() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
+  const [currentDate, setCurrentDate] = useState('');
 
   const [modes, setModes] = useState<ChatMode[]>([
     {
@@ -84,6 +85,10 @@ export default function ChatPage() {
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
+
+  useEffect(() => {
+    setCurrentDate(new Date().toLocaleDateString());
+  }, []);
 
   const toggleMode = (modeId: string) => {
     setModes(prev => prev.map(mode =>
@@ -292,9 +297,11 @@ export default function ChatPage() {
             </div>
           </div>
           <div className="flex items-center space-x-2">
-            <div className="text-sm text-gray-500">
-              {new Date().toLocaleDateString()}
-            </div>
+            {currentDate && (
+              <div className="text-sm text-gray-500">
+                {currentDate}
+              </div>
+            )}
           </div>
         </div>
 

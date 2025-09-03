@@ -1,0 +1,2365 @@
+
+{
+  "providers": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "logo": "/logos/openai.svg",
+      "description": "Leading AI research company behind GPT models",
+      "website": "https://openai.com",
+      "models": ["gpt-4", "gpt-4-turbo", "gpt-4o", "gpt-3.5-turbo", "dall-e-3", "whisper-1", "tts-1"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "logo": "/logos/anthropic.svg",
+      "description": "AI safety company focused on beneficial AI",
+      "website": "https://anthropic.com",
+      "models": ["claude-3-opus", "claude-3-sonnet", "claude-3-haiku", "claude-2"],
+      "categories": ["text", "multimodal"],
+      "status": "active"
+    },
+    {
+      "id": "google",
+      "name": "Google DeepMind",
+      "logo": "/logos/google.svg",
+      "description": "Google's AI research division",
+      "website": "https://deepmind.google",
+      "models": ["gemini-1.5-pro", "gemini-1.5-flash", "palm-2", "bert-base", "imagen-2"],
+      "categories": ["text", "image", "multimodal", "embeddings"],
+      "status": "active"
+    },
+    {
+      "id": "meta",
+      "name": "Meta AI",
+      "logo": "/logos/meta.svg",
+      "description": "Meta's AI initiatives and Llama models",
+      "website": "https://ai.meta.com",
+      "models": ["llama-3-70b", "llama-3-8b", "codellama-34b"],
+      "categories": ["text", "code"],
+      "status": "active"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "logo": "/logos/cohere.svg",
+      "description": "Enterprise AI platform for language models",
+      "website": "https://cohere.com",
+      "models": ["command-r", "command-r-plus", "embed-english-v3.0"],
+      "categories": ["text", "embeddings"],
+      "status": "active"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral AI",
+      "logo": "/logos/mistral.svg",
+      "description": "European AI company focused on open models",
+      "website": "https://mistral.ai",
+      "models": ["mistral-7b", "mixtral-8x7b", "codestral"],
+      "categories": ["text", "code"],
+      "status": "active"
+    },
+    {
+      "id": "stability",
+      "name": "Stability AI",
+      "logo": "/logos/stability.svg",
+      "description": "Open-source AI company behind Stable Diffusion",
+      "website": "https://stability.ai",
+      "models": ["stable-diffusion-xl", "stable-diffusion-3", "stable-video-diffusion"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "logo": "/logos/midjourney.svg",
+      "description": "AI-powered image generation platform",
+      "website": "https://midjourney.com",
+      "models": ["midjourney-v5", "midjourney-v6"],
+      "categories": ["image"],
+      "status": "active"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "logo": "/logos/elevenlabs.svg",
+      "description": "AI voice synthesis and cloning platform",
+      "website": "https://elevenlabs.io",
+      "models": ["eleven-multilingual-v2", "eleven-english-v2"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "runway",
+      "name": "Runway ML",
+      "logo": "/logos/runway.svg",
+      "description": "Creative AI tools for video and image generation",
+      "website": "https://runwayml.com",
+      "models": ["gen-2", "gen-3"],
+      "categories": ["video", "image"],
+      "status": "active"
+    },
+    {
+      "id": "qwen",
+      "name": "Qwen",
+      "logo": "/logos/qwen.svg",
+      "description": "Alibaba's large language models",
+      "website": "https://qwen.ai",
+      "models": ["qwen-72b", "qwen-14b", "qwen-turbo"],
+      "categories": ["text", "multimodal"],
+      "status": "active"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "logo": "/logos/deepseek.svg",
+      "description": "Chinese AI company with advanced reasoning models",
+      "website": "https://deepseek.com",
+      "models": ["deepseek-coder"],
+      "categories": ["text", "code"],
+      "status": "active"
+    },
+    {
+      "id": "together",
+      "name": "Together AI",
+      "logo": "/logos/together.svg",
+      "description": "Cloud platform for running open-source AI models",
+      "website": "https://together.ai",
+      "models": ["llama-2-70b", "codellama-34b", "starcoder"],
+      "categories": ["text", "code"],
+      "status": "active"
+    },
+    {
+      "id": "replicate",
+      "name": "Replicate",
+      "logo": "/logos/replicate.svg",
+      "description": "Platform for running AI models in the cloud",
+      "website": "https://replicate.com",
+      "models": ["llama-2-70b", "stable-diffusion", "sdxl"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "logo": "/logos/huggingface.svg",
+      "description": "Open-source AI community and platform",
+      "website": "https://huggingface.co",
+      "models": ["bert-base", "gpt2", "t5-base", "sentence-transformers"],
+      "categories": ["text", "embeddings", "multimodal"],
+      "status": "active"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity AI",
+      "logo": "/logos/perplexity.svg",
+      "description": "AI-powered search and answer engine",
+      "website": "https://perplexity.ai",
+      "models": ["pplx-70b-online", "pplx-7b-chat"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "claude",
+      "name": "Claude AI",
+      "logo": "/logos/claude.svg",
+      "description": "Anthropic's conversational AI assistant",
+      "website": "https://claude.ai",
+      "models": ["claude-3-opus", "claude-3-sonnet"],
+      "categories": ["text", "multimodal"],
+      "status": "active"
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "logo": "/logos/groq.svg",
+      "description": "AI inference platform with fast processing",
+      "website": "https://groq.com",
+      "models": ["llama-2-70b", "mixtral-8x7b"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "fireworks",
+      "name": "Fireworks AI",
+      "logo": "/logos/fireworks.svg",
+      "description": "Serverless GPU platform for AI models",
+      "website": "https://fireworks.ai",
+      "models": ["llama-2-70b", "mixtral-8x7b"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "anyscale",
+      "name": "Anyscale",
+      "logo": "/logos/anyscale.svg",
+      "description": "Ray-based AI computing platform",
+      "website": "https://anyscale.com",
+      "models": ["llama-2-70b", "codellama-34b"],
+      "categories": ["text", "code"],
+      "status": "active"
+    },
+    {
+      "id": "modal",
+      "name": "Modal",
+      "logo": "/logos/modal.svg",
+      "description": "Serverless cloud platform for AI/ML",
+      "website": "https://modal.com",
+      "models": ["llama-2-70b", "stable-diffusion"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "logo": "/logos/cerebras.svg",
+      "description": "AI chip company with large language models",
+      "website": "https://cerebras.net",
+      "models": ["llama-2-70b"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "samba",
+      "name": "SambaNova",
+      "logo": "/logos/samba.svg",
+      "description": "Enterprise AI platform",
+      "website": "https://sambanova.ai",
+      "models": ["llama-2-70b"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "lambda",
+      "name": "Lambda Labs",
+      "logo": "/logos/lambda.svg",
+      "description": "Cloud GPU platform for AI training",
+      "website": "https://lambdalabs.com",
+      "models": ["stable-diffusion", "llama-2-70b"],
+      "categories": ["image", "text"],
+      "status": "active"
+    },
+    {
+      "id": "paperspace",
+      "name": "Paperspace",
+      "logo": "/logos/paperspace.svg",
+      "description": "Cloud platform for AI/ML development",
+      "website": "https://paperspace.com",
+      "models": ["gradient", "llama-2-70b"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "vast",
+      "name": "Vast.ai",
+      "logo": "/logos/vast.svg",
+      "description": "Decentralized cloud GPU marketplace",
+      "website": "https://vast.ai",
+      "models": ["stable-diffusion", "llama-2-70b"],
+      "categories": ["image", "text"],
+      "status": "active"
+    },
+    {
+      "id": "runpod",
+      "name": "RunPod",
+      "logo": "/logos/runpod.svg",
+      "description": "GPU cloud platform for AI inference",
+      "website": "https://runpod.io",
+      "models": ["stable-diffusion", "llama-2-70b"],
+      "categories": ["image", "text"],
+      "status": "active"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "logo": "/logos/banana.svg",
+      "description": "Serverless GPU platform",
+      "website": "https://banana.dev",
+      "models": ["stable-diffusion"],
+      "categories": ["image"],
+      "status": "active"
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "logo": "/logos/replit.svg",
+      "description": "Online IDE with AI coding assistance",
+      "website": "https://replit.com",
+      "models": ["replit-code-v1"],
+      "categories": ["code"],
+      "status": "active"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "logo": "/logos/cursor.svg",
+      "description": "AI-first code editor",
+      "website": "https://cursor.sh",
+      "models": ["gpt-4", "claude-3"],
+      "categories": ["code"],
+      "status": "active"
+    },
+    {
+      "id": "github",
+      "name": "GitHub Copilot",
+      "logo": "/logos/github.svg",
+      "description": "AI-powered code completion",
+      "website": "https://github.com/features/copilot",
+      "models": ["copilot", "gpt-4"],
+      "categories": ["code"],
+      "status": "active"
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "logo": "/logos/tabnine.svg",
+      "description": "AI code completion and chat",
+      "website": "https://tabnine.com",
+      "models": ["tabnine-codex"],
+      "categories": ["code"],
+      "status": "active"
+    },
+    {
+      "id": "kite",
+      "name": "Kite",
+      "logo": "/logos/kite.svg",
+      "description": "AI-powered coding assistant",
+      "website": "https://www.kite.com",
+      "models": ["kite-python"],
+      "categories": ["code"],
+      "status": "active"
+    },
+    {
+      "id": "sourcegraph",
+      "name": "Sourcegraph",
+      "logo": "/logos/sourcegraph.svg",
+      "description": "Code intelligence platform",
+      "website": "https://sourcegraph.com",
+      "models": ["cody"],
+      "categories": ["code"],
+      "status": "active"
+    },
+    {
+      "id": "codewhisperer",
+      "name": "Amazon CodeWhisperer",
+      "logo": "/logos/aws.svg",
+      "description": "AI coding companion",
+      "website": "https://aws.amazon.com/codewhisperer",
+      "models": ["codewhisperer"],
+      "categories": ["code"],
+      "status": "active"
+    },
+    {
+      "id": "pika",
+      "name": "Pika Labs",
+      "logo": "/logos/pika.svg",
+      "description": "AI video generation platform",
+      "website": "https://pika.art",
+      "models": ["pika-labs"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "logo": "/logos/synthesia.svg",
+      "description": "AI video creation platform",
+      "website": "https://synthesia.io",
+      "models": ["synthesia"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "logo": "/logos/heygen.svg",
+      "description": "AI video and avatar platform",
+      "website": "https://heygen.com",
+      "models": ["heygen"],
+      "categories": ["video", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "logo": "/logos/suno.svg",
+      "description": "AI music generation",
+      "website": "https://suno.ai",
+      "models": ["suno-v3", "suno-v4"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "logo": "/logos/udio.svg",
+      "description": "AI music creation platform",
+      "website": "https://udio.com",
+      "models": ["udio"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "mubert",
+      "name": "Mubert",
+      "logo": "/logos/mubert.svg",
+      "description": "AI music generation",
+      "website": "https://mubert.com",
+      "models": ["mubert"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "aiva",
+      "name": "AIVA",
+      "logo": "/logos/aiva.svg",
+      "description": "AI music composition",
+      "website": "https://www.aiva.ai",
+      "models": ["aiva"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "logo": "/logos/descript.svg",
+      "description": "AI-powered audio and video editing",
+      "website": "https://www.descript.com",
+      "models": ["descript"],
+      "categories": ["audio", "video"],
+      "status": "active"
+    },
+    {
+      "id": "respeecher",
+      "name": "Respeecher",
+      "logo": "/logos/respeecher.svg",
+      "description": "Voice cloning and synthesis",
+      "website": "https://www.respeecher.com",
+      "models": ["respeecher"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "play",
+      "name": "Play.ht",
+      "logo": "/logos/play.svg",
+      "description": "AI text-to-speech platform",
+      "website": "https://play.ht",
+      "models": ["play-ht"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "murf",
+      "name": "Murf.ai",
+      "logo": "/logos/murf.svg",
+      "description": "AI voice generator",
+      "website": "https://murf.ai",
+      "models": ["murf"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "lovo",
+      "name": "Lovo.ai",
+      "logo": "/logos/lovo.svg",
+      "description": "AI voice creation platform",
+      "website": "https://www.lovo.ai",
+      "models": ["lovo"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "wellsaid",
+      "name": "WellSaid Labs",
+      "logo": "/logos/wellsaid.svg",
+      "description": "AI voice synthesis",
+      "website": "https://wellsaidlabs.com",
+      "models": ["wellsaid"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "speechify",
+      "name": "Speechify",
+      "logo": "/logos/speechify.svg",
+      "description": "Text-to-speech platform",
+      "website": "https://speechify.com",
+      "models": ["speechify"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "naturalreaders",
+      "name": "NaturalReaders",
+      "logo": "/logos/naturalreaders.svg",
+      "description": "AI text-to-speech service",
+      "website": "https://www.naturalreaders.com",
+      "models": ["naturalreaders"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "azure",
+      "name": "Azure AI",
+      "logo": "/logos/azure.svg",
+      "description": "Microsoft's AI services",
+      "website": "https://azure.microsoft.com/en-us/products/ai-services",
+      "models": ["azure-gpt-4", "azure-whisper", "azure-tts"],
+      "categories": ["text", "audio", "image"],
+      "status": "active"
+    },
+    {
+      "id": "aws",
+      "name": "Amazon Web Services",
+      "logo": "/logos/aws.svg",
+      "description": "AWS AI and machine learning services",
+      "website": "https://aws.amazon.com/machine-learning",
+      "models": ["amazon-q", "amazon-titan", "amazon-lex"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "gcp",
+      "name": "Google Cloud AI",
+      "logo": "/logos/gcp.svg",
+      "description": "Google Cloud AI and machine learning",
+      "website": "https://cloud.google.com/ai",
+      "models": ["vertex-ai", "ai-platform", "speech-to-text"],
+      "categories": ["text", "audio", "image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "ibm",
+      "name": "IBM Watson",
+      "logo": "/logos/ibm.svg",
+      "description": "IBM's AI and cognitive computing",
+      "website": "https://www.ibm.com/watson",
+      "models": ["watson-assistant", "watson-discovery", "watson-speech"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle Cloud AI",
+      "logo": "/logos/oracle.svg",
+      "description": "Oracle's AI and machine learning services",
+      "website": "https://www.oracle.com/artificial-intelligence",
+      "models": ["oracle-ai", "oracle-language", "oracle-vision"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "sap",
+      "name": "SAP AI",
+      "logo": "/logos/sap.svg",
+      "description": "SAP's AI and business intelligence",
+      "website": "https://www.sap.com/products/ai",
+      "models": ["sap-ai", "sap-conversational-ai"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce Einstein",
+      "logo": "/logos/salesforce.svg",
+      "description": "Salesforce's AI platform",
+      "website": "https://www.salesforce.com/products/einstein",
+      "models": ["einstein", "einstein-sales", "einstein-service"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe Sensei",
+      "logo": "/logos/adobe.svg",
+      "description": "Adobe's AI and machine learning",
+      "website": "https://www.adobe.com/sensei",
+      "models": ["sensei", "adobe-firefly"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "autodesk",
+      "name": "Autodesk Generative Design",
+      "logo": "/logos/autodesk.svg",
+      "description": "AI-powered design and engineering",
+      "website": "https://www.autodesk.com/products/generative-design",
+      "models": ["generative-design"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA AI",
+      "logo": "/logos/nvidia.svg",
+      "description": "NVIDIA's AI platforms and models",
+      "website": "https://www.nvidia.com/en-us/ai",
+      "models": ["nvidia-nim", "nvidia-tensorrt"],
+      "categories": ["text", "image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "amd",
+      "name": "AMD AI",
+      "logo": "/logos/amd.svg",
+      "description": "AMD's AI and machine learning solutions",
+      "website": "https://www.amd.com/en/technologies/ai",
+      "models": ["amd-mi300", "amd-instinct"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "intel",
+      "name": "Intel AI",
+      "logo": "/logos/intel.svg",
+      "description": "Intel's AI and deep learning technologies",
+      "website": "https://www.intel.com/content/www/us/en/artificial-intelligence",
+      "models": ["intel-neural-compressor", "intel-openvino"],
+      "categories": ["text", "image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "qualcomm",
+      "name": "Qualcomm AI",
+      "logo": "/logos/qualcomm.svg",
+      "description": "Qualcomm's AI and neural processing",
+      "website": "https://www.qualcomm.com/ai",
+      "models": ["qualcomm-snapdragon", "qualcomm-cloud-ai"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "apple",
+      "name": "Apple AI",
+      "logo": "/logos/apple.svg",
+      "description": "Apple's AI and machine learning frameworks",
+      "website": "https://developer.apple.com/machine-learning",
+      "models": ["core-ml", "create-ml"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla AI",
+      "logo": "/logos/tesla.svg",
+      "description": "Tesla's AI for autonomous driving",
+      "website": "https://www.tesla.com/ai",
+      "models": ["tesla-fsd", "tesla-dojo"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "uber",
+      "name": "Uber AI",
+      "logo": "/logos/uber.svg",
+      "description": "Uber's AI for transportation and logistics",
+      "website": "https://www.uber.com",
+      "models": ["uber-atg"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "waymo",
+      "name": "Waymo",
+      "logo": "/logos/waymo.svg",
+      "description": "Google's autonomous driving AI",
+      "website": "https://waymo.com",
+      "models": ["waymo-driver"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "cruise",
+      "name": "Cruise",
+      "logo": "/logos/cruise.svg",
+      "description": "GM's autonomous vehicle AI",
+      "website": "https://getcruise.com",
+      "models": ["cruise-origin"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "aurora",
+      "name": "Aurora",
+      "logo": "/logos/aurora.svg",
+      "description": "Autonomous driving AI company",
+      "website": "https://aurora.tech",
+      "models": ["aurora-driver"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "comma",
+      "name": "Comma.ai",
+      "logo": "/logos/comma.svg",
+      "description": "Open-source autonomous driving",
+      "website": "https://comma.ai",
+      "models": ["comma-openpilot"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "mobileye",
+      "name": "Mobileye",
+      "logo": "/logos/mobileye.svg",
+      "description": "Computer vision for autonomous vehicles",
+      "website": "https://www.mobileye.com",
+      "models": ["mobileye-super-vision"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "lucid",
+      "name": "Lucid Motors AI",
+      "logo": "/logos/lucid.svg",
+      "description": "Lucid's AI for electric vehicles",
+      "website": "https://lucidmotors.com",
+      "models": ["lucid-dream-drive"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "rivian",
+      "name": "Rivian AI",
+      "logo": "/logos/rivian.svg",
+      "description": "Rivian's AI for adventure vehicles",
+      "website": "https://rivian.com",
+      "models": ["rivian-adventure-ai"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "nio",
+      "name": "NIO AI",
+      "logo": "/logos/nio.svg",
+      "description": "NIO's AI for smart electric vehicles",
+      "website": "https://nio.com",
+      "models": ["nio-nomad"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "xpeng",
+      "name": "XPeng AI",
+      "logo": "/logos/xpeng.svg",
+      "description": "XPeng's AI for autonomous driving",
+      "website": "https://www.xpeng.com",
+      "models": ["xpeng-xpilot"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "li",
+      "name": "Li Auto AI",
+      "logo": "/logos/li.svg",
+      "description": "Li Auto's AI for range-extended EVs",
+      "website": "https://www.lixiang.com",
+      "models": ["li-lidar"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "byd",
+      "name": "BYD AI",
+      "logo": "/logos/byd.svg",
+      "description": "BYD's AI for electric vehicles",
+      "website": "https://www.byd.com",
+      "models": ["byd-di-pilot"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "geely",
+      "name": "Geely AI",
+      "logo": "/logos/geely.svg",
+      "description": "Geely's AI for smart vehicles",
+      "website": "https://www.geely.com",
+      "models": ["geely-flyme"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "volkswagen",
+      "name": "Volkswagen AI",
+      "logo": "/logos/volkswagen.svg",
+      "description": "Volkswagen's AI for autonomous driving",
+      "website": "https://www.volkswagen-group.com",
+      "models": ["vw-car-net"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "bmw",
+      "name": "BMW AI",
+      "logo": "/logos/bmw.svg",
+      "description": "BMW's AI for premium vehicles",
+      "website": "https://www.bmw.com",
+      "models": ["bmw-idrive"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "mercedes",
+      "name": "Mercedes-Benz AI",
+      "logo": "/logos/mercedes.svg",
+      "description": "Mercedes' AI for luxury vehicles",
+      "website": "https://www.mercedes-benz.com",
+      "models": ["mbux"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "audi",
+      "name": "Audi AI",
+      "logo": "/logos/audi.svg",
+      "description": "Audi's AI for premium mobility",
+      "website": "https://www.audi.com",
+      "models": ["audi-pilot"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "porsche",
+      "name": "Porsche AI",
+      "logo": "/logos/porsche.svg",
+      "description": "Porsche's AI for sports cars",
+      "website": "https://www.porsche.com",
+      "models": ["porsche-pilot"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "ferrari",
+      "name": "Ferrari AI",
+      "logo": "/logos/ferrari.svg",
+      "description": "Ferrari's AI for supercars",
+      "website": "https://www.ferrari.com",
+      "models": ["ferrari-racing"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "lamborghini",
+      "name": "Lamborghini AI",
+      "logo": "/logos/lamborghini.svg",
+      "description": "Lamborghini's AI for hypercars",
+      "website": "https://www.lamborghini.com",
+      "models": ["lambo-connect"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "bugatti",
+      "name": "Bugatti AI",
+      "logo": "/logos/bugatti.svg",
+      "description": "Bugatti's AI for hypercars",
+      "website": "https://www.bugatti.com",
+      "models": ["bugatti-mind"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "koenigsegg",
+      "name": "Koenigsegg AI",
+      "logo": "/logos/koenigsegg.svg",
+      "description": "Koenigsegg's AI for megacars",
+      "website": "https://www.koenigsegg.com",
+      "models": ["koenigsegg-infotainment"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "mclaren",
+      "name": "McLaren AI",
+      "logo": "/logos/mclaren.svg",
+      "description": "McLaren's AI for Formula 1",
+      "website": "https://www.mclaren.com",
+      "models": ["mclaren-f1"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "redbull",
+      "name": "Red Bull Racing AI",
+      "logo": "/logos/redbull.svg",
+      "description": "Red Bull's AI for Formula 1",
+      "website": "https://www.redbullracing.com",
+      "models": ["redbull-f1"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "mercedesf1",
+      "name": "Mercedes F1 AI",
+      "logo": "/logos/mercedesf1.svg",
+      "description": "Mercedes' AI for Formula 1",
+      "website": "https://www.mercedesamgf1.com",
+      "models": ["mercedes-f1"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "ferrarif1",
+      "name": "Ferrari F1 AI",
+      "logo": "/logos/ferrarif1.svg",
+      "description": "Ferrari's AI for Formula 1",
+      "website": "https://www.scuderiaferrari.com",
+      "models": ["ferrari-f1"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "alpine",
+      "name": "Alpine F1 AI",
+      "logo": "/logos/alpine.svg",
+      "description": "Alpine's AI for Formula 1",
+      "website": "https://www.alpine-cars.co.uk",
+      "models": ["alpine-f1"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "astonmartin",
+      "name": "Aston Martin F1 AI",
+      "logo": "/logos/astonmartin.svg",
+      "description": "Aston Martin's AI for Formula 1",
+      "website": "https://www.astonmartinf1.com",
+      "models": ["aston-martin-f1"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "haas",
+      "name": "Haas F1 AI",
+      "logo": "/logos/haas.svg",
+      "description": "Haas' AI for Formula 1",
+      "website": "https://www.haasf1team.com",
+      "models": ["haas-f1"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "sauber",
+      "name": "Sauber F1 AI",
+      "logo": "/logos/sauber.svg",
+      "description": "Sauber's AI for Formula 1",
+      "website": "https://www.kicksauber.com",
+      "models": ["sauber-f1"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "williams",
+      "name": "Williams F1 AI",
+      "logo": "/logos/williams.svg",
+      "description": "Williams' AI for Formula 1",
+      "website": "https://www.williamsf1.com",
+      "models": ["williams-f1"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "visa",
+      "name": "Visa AI",
+      "logo": "/logos/visa.svg",
+      "description": "Visa's AI for fraud detection",
+      "website": "https://www.visa.com",
+      "models": ["visa-ai"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "mastercard",
+      "name": "Mastercard AI",
+      "logo": "/logos/mastercard.svg",
+      "description": "Mastercard's AI for payments",
+      "website": "https://www.mastercard.com",
+      "models": ["mastercard-ai"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal AI",
+      "logo": "/logos/paypal.svg",
+      "description": "PayPal's AI for fraud prevention",
+      "website": "https://www.paypal.com",
+      "models": ["paypal-risk"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe AI",
+      "logo": "/logos/stripe.svg",
+      "description": "Stripe's AI for payment processing",
+      "website": "https://stripe.com",
+      "models": ["stripe-radar"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "square",
+      "name": "Square AI",
+      "logo": "/logos/square.svg",
+      "description": "Square's AI for small business",
+      "website": "https://squareup.com",
+      "models": ["square-ai"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify AI",
+      "logo": "/logos/shopify.svg",
+      "description": "Shopify's AI for e-commerce",
+      "website": "https://www.shopify.com",
+      "models": ["shopify-magic"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon AI",
+      "logo": "/logos/amazon.svg",
+      "description": "Amazon's AI for e-commerce and services",
+      "website": "https://aws.amazon.com/machine-learning",
+      "models": ["amazon-lex", "amazon-polly", "amazon-rekognition"],
+      "categories": ["text", "audio", "image"],
+      "status": "active"
+    },
+    {
+      "id": "ebay",
+      "name": "eBay AI",
+      "logo": "/logos/ebay.svg",
+      "description": "eBay's AI for marketplace",
+      "website": "https://www.ebay.com",
+      "models": ["ebay-ai"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "etsy",
+      "name": "Etsy AI",
+      "logo": "/logos/etsy.svg",
+      "description": "Etsy's AI for handmade marketplace",
+      "website": "https://www.etsy.com",
+      "models": ["etsy-visual-search"],
+      "categories": ["image"],
+      "status": "active"
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest AI",
+      "logo": "/logos/pinterest.svg",
+      "description": "Pinterest's AI for visual discovery",
+      "website": "https://www.pinterest.com",
+      "models": ["pinterest-lens"],
+      "categories": ["image"],
+      "status": "active"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram AI",
+      "logo": "/logos/instagram.svg",
+      "description": "Instagram's AI for social media",
+      "website": "https://www.instagram.com",
+      "models": ["instagram-reels"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok AI",
+      "logo": "/logos/tiktok.svg",
+      "description": "TikTok's AI for short-form video",
+      "website": "https://www.tiktok.com",
+      "models": ["tiktok-effects"],
+      "categories": ["video", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "snapchat",
+      "name": "Snapchat AI",
+      "logo": "/logos/snapchat.svg",
+      "description": "Snapchat's AI for augmented reality",
+      "website": "https://www.snap.com",
+      "models": ["snap-lenses"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "twitter",
+      "name": "Twitter AI",
+      "logo": "/logos/twitter.svg",
+      "description": "Twitter's AI for content moderation",
+      "website": "https://twitter.com",
+      "models": ["twitter-recommendations"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook AI",
+      "logo": "/logos/facebook.svg",
+      "description": "Facebook's AI for social networking",
+      "website": "https://www.facebook.com",
+      "models": ["facebook-ads"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn AI",
+      "logo": "/logos/linkedin.svg",
+      "description": "LinkedIn's AI for professional networking",
+      "website": "https://www.linkedin.com",
+      "models": ["linkedin-recommendations"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit AI",
+      "logo": "/logos/reddit.svg",
+      "description": "Reddit's AI for content moderation",
+      "website": "https://www.reddit.com",
+      "models": ["reddit-automod"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "discord",
+      "name": "Discord AI",
+      "logo": "/logos/discord.svg",
+      "description": "Discord's AI for community management",
+      "website": "https://discord.com",
+      "models": ["discord-moderation"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "slack",
+      "name": "Slack AI",
+      "logo": "/logos/slack.svg",
+      "description": "Slack's AI for workplace communication",
+      "website": "https://slack.com",
+      "models": ["slack-huddle"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom AI",
+      "logo": "/logos/zoom.svg",
+      "description": "Zoom's AI for video conferencing",
+      "website": "https://zoom.us",
+      "models": ["zoom-smart-gallery"],
+      "categories": ["video", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams AI",
+      "logo": "/logos/teams.svg",
+      "description": "Microsoft Teams' AI for collaboration",
+      "website": "https://www.microsoft.com/en-us/microsoft-teams",
+      "models": ["teams-transcribe", "teams-translate"],
+      "categories": ["text", "audio", "video"],
+      "status": "active"
+    },
+    {
+      "id": "webex",
+      "name": "Cisco Webex AI",
+      "logo": "/logos/webex.svg",
+      "description": "Cisco's AI for video conferencing",
+      "website": "https://www.webex.com",
+      "models": ["webex-assistant"],
+      "categories": ["video", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "meet",
+      "name": "Google Meet AI",
+      "logo": "/logos/meet.svg",
+      "description": "Google's AI for video meetings",
+      "website": "https://meet.google.com",
+      "models": ["meet-captions", "meet-noise-cancellation"],
+      "categories": ["video", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "skype",
+      "name": "Skype AI",
+      "logo": "/logos/skype.svg",
+      "description": "Microsoft's AI for communication",
+      "website": "https://www.skype.com",
+      "models": ["skype-translator"],
+      "categories": ["text", "audio", "video"],
+      "status": "active"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp AI",
+      "logo": "/logos/whatsapp.svg",
+      "description": "Meta's AI for messaging",
+      "website": "https://www.whatsapp.com",
+      "models": ["whatsapp-business"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram AI",
+      "logo": "/logos/telegram.svg",
+      "description": "Telegram's AI features",
+      "website": "https://telegram.org",
+      "models": ["telegram-bot-api"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "signal",
+      "name": "Signal AI",
+      "logo": "/logos/signal.svg",
+      "description": "Signal's privacy-focused AI",
+      "website": "https://signal.org",
+      "models": ["signal-encryption"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "wechat",
+      "name": "WeChat AI",
+      "logo": "/logos/wechat.svg",
+      "description": "Tencent's AI for messaging",
+      "website": "https://www.wechat.com",
+      "models": ["wechat-miniprogram"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "line",
+      "name": "LINE AI",
+      "logo": "/logos/line.svg",
+      "description": "LINE's AI for messaging",
+      "website": "https://line.me",
+      "models": ["line-chatbot"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "kakao",
+      "name": "KakaoTalk AI",
+      "logo": "/logos/kakao.svg",
+      "description": "Kakao's AI for messaging",
+      "website": "https://www.kakaocorp.com",
+      "models": ["kakao-i"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "viber",
+      "name": "Viber AI",
+      "logo": "/logos/viber.svg",
+      "description": "Rakuten's AI for messaging",
+      "website": "https://www.viber.com",
+      "models": ["viber-chatbot"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "messenger",
+      "name": "Messenger AI",
+      "logo": "/logos/messenger.svg",
+      "description": "Meta's AI for Messenger",
+      "website": "https://www.messenger.com",
+      "models": ["messenger-platform"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "gmail",
+      "name": "Gmail AI",
+      "logo": "/logos/gmail.svg",
+      "description": "Google's AI for email",
+      "website": "https://mail.google.com",
+      "models": ["gmail-smart-compose", "gmail-smart-reply"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "outlook",
+      "name": "Outlook AI",
+      "logo": "/logos/outlook.svg",
+      "description": "Microsoft's AI for email",
+      "website": "https://outlook.com",
+      "models": ["outlook-clutter", "outlook-focused-inbox"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "notion",
+      "name": "Notion AI",
+      "logo": "/logos/notion.svg",
+      "description": "Notion's AI for productivity",
+      "website": "https://www.notion.so",
+      "models": ["notion-ai"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote AI",
+      "logo": "/logos/evernote.svg",
+      "description": "Evernote's AI for note-taking",
+      "website": "https://evernote.com",
+      "models": ["evernote-search"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "onenote",
+      "name": "OneNote AI",
+      "logo": "/logos/onenote.svg",
+      "description": "Microsoft's AI for note-taking",
+      "website": "https://www.onenote.com",
+      "models": ["onenote-ink-to-text"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox AI",
+      "logo": "/logos/dropbox.svg",
+      "description": "Dropbox's AI for file management",
+      "website": "https://www.dropbox.com",
+      "models": ["dropbox-smart-sync"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "googledrive",
+      "name": "Google Drive AI",
+      "logo": "/logos/googledrive.svg",
+      "description": "Google's AI for file storage",
+      "website": "https://drive.google.com",
+      "models": ["drive-search"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "onedrive",
+      "name": "OneDrive AI",
+      "logo": "/logos/onedrive.svg",
+      "description": "Microsoft's AI for cloud storage",
+      "website": "https://onedrive.live.com",
+      "models": ["onedrive-ai"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "box",
+      "name": "Box AI",
+      "logo": "/logos/box.svg",
+      "description": "Box's AI for enterprise file sharing",
+      "website": "https://www.box.com",
+      "models": ["box-content-insights"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "sharepoint",
+      "name": "SharePoint AI",
+      "logo": "/logos/sharepoint.svg",
+      "description": "Microsoft's AI for collaboration",
+      "website": "https://www.microsoft.com/en-us/microsoft-365/sharepoint",
+      "models": ["sharepoint-syntex"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "confluence",
+      "name": "Confluence AI",
+      "logo": "/logos/confluence.svg",
+      "description": "Atlassian's AI for documentation",
+      "website": "https://www.atlassian.com/software/confluence",
+      "models": ["confluence-intelligence"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "jira",
+      "name": "Jira AI",
+      "logo": "/logos/jira.svg",
+      "description": "Atlassian's AI for project management",
+      "website": "https://www.atlassian.com/software/jira",
+      "models": ["jira-automation"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "trello",
+      "name": "Trello AI",
+      "logo": "/logos/trello.svg",
+      "description": "Atlassian's AI for task management",
+      "website": "https://trello.com",
+      "models": ["trello-butler"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "asana",
+      "name": "Asana AI",
+      "logo": "/logos/asana.svg",
+      "description": "Asana's AI for work management",
+      "website": "https://asana.com",
+      "models": ["asana-intelligence"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "monday",
+      "name": "Monday.com AI",
+      "logo": "/logos/monday.svg",
+      "description": "Monday.com's AI for workflow management",
+      "website": "https://monday.com",
+      "models": ["monday-workdocs"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp AI",
+      "logo": "/logos/clickup.svg",
+      "description": "ClickUp's AI for productivity",
+      "website": "https://clickup.com",
+      "models": ["clickup-brain"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist AI",
+      "logo": "/logos/todoist.svg",
+      "description": "Todoist's AI for task management",
+      "website": "https://todoist.com",
+      "models": ["todoist-natural-language"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "wunderlist",
+      "name": "Wunderlist AI",
+      "logo": "/logos/wunderlist.svg",
+      "description": "Microsoft's AI for to-do lists",
+      "website": "https://www.wunderlist.com",
+      "models": ["wunderlist-smart-suggestions"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "anydo",
+      "name": "Any.do AI",
+      "logo": "/logos/anydo.svg",
+      "description": "Any.do's AI for productivity",
+      "website": "https://www.any.do",
+      "models": ["anydo-momentum"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "habitica",
+      "name": "Habitica AI",
+      "logo": "/logos/habitica.svg",
+      "description": "Habitica's AI for habit tracking",
+      "website": "https://habitica.com",
+      "models": ["habitica-challenges"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "forest",
+      "name": "Forest AI",
+      "logo": "/logos/forest.svg",
+      "description": "Forest's AI for focus and productivity",
+      "website": "https://www.forestapp.cc",
+      "models": ["forest-focus"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "focus",
+      "name": "Focus@Will AI",
+      "logo": "/logos/focus.svg",
+      "description": "Focus@Will's AI for concentration music",
+      "website": "https://www.focusatwill.com",
+      "models": ["focus-music"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "brainfm",
+      "name": "Brain.fm AI",
+      "logo": "/logos/brainfm.svg",
+      "description": "Brain.fm's AI for functional music",
+      "website": "https://www.brain.fm",
+      "models": ["brainfm-neuroscience"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify AI",
+      "logo": "/logos/spotify.svg",
+      "description": "Spotify's AI for music discovery",
+      "website": "https://www.spotify.com",
+      "models": ["spotify-recommendations", "spotify-daily-mix"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "applemusic",
+      "name": "Apple Music AI",
+      "logo": "/logos/applemusic.svg",
+      "description": "Apple's AI for music streaming",
+      "website": "https://music.apple.com",
+      "models": ["apple-music-recommendations"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "pandora",
+      "name": "Pandora AI",
+      "logo": "/logos/pandora.svg",
+      "description": "Pandora's AI for music streaming",
+      "website": "https://www.pandora.com",
+      "models": ["pandora-genome"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud AI",
+      "logo": "/logos/soundcloud.svg",
+      "description": "SoundCloud's AI for music discovery",
+      "website": "https://soundcloud.com",
+      "models": ["soundcloud-recommendations"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer AI",
+      "logo": "/logos/deezer.svg",
+      "description": "Deezer's AI for music streaming",
+      "website": "https://www.deezer.com",
+      "models": ["deezer-flow"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "tidal",
+      "name": "TIDAL AI",
+      "logo": "/logos/tidal.svg",
+      "description": "TIDAL's AI for high-fidelity music",
+      "website": "https://tidal.com",
+      "models": ["tidal-recommendations"],
+      "categories": ["audio"],
+      "status": "active"
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube AI",
+      "logo": "/logos/youtube.svg",
+      "description": "Google's AI for video platform",
+      "website": "https://www.youtube.com",
+      "models": ["youtube-recommendations"],
+      "categories": ["video", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix AI",
+      "logo": "/logos/netflix.svg",
+      "description": "Netflix's AI for content recommendations",
+      "website": "https://www.netflix.com",
+      "models": ["netflix-recommendations"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu AI",
+      "logo": "/logos/hulu.svg",
+      "description": "Hulu's AI for streaming recommendations",
+      "website": "https://www.hulu.com",
+      "models": ["hulu-recommendations"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "disney",
+      "name": "Disney+ AI",
+      "logo": "/logos/disney.svg",
+      "description": "Disney's AI for streaming",
+      "website": "https://www.disneyplus.com",
+      "models": ["disney-recommendations"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "hbo",
+      "name": "HBO Max AI",
+      "logo": "/logos/hbo.svg",
+      "description": "HBO's AI for streaming",
+      "website": "https://www.hbomax.com",
+      "models": ["hbo-recommendations"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "prime",
+      "name": "Prime Video AI",
+      "logo": "/logos/prime.svg",
+      "description": "Amazon's AI for video streaming",
+      "website": "https://www.primevideo.com",
+      "models": ["prime-recommendations"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll AI",
+      "logo": "/logos/crunchyroll.svg",
+      "description": "Crunchyroll's AI for anime streaming",
+      "website": "https://www.crunchyroll.com",
+      "models": ["crunchyroll-recommendations"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "funimation",
+      "name": "Funimation AI",
+      "logo": "/logos/funimation.svg",
+      "description": "Funimation's AI for anime streaming",
+      "website": "https://www.funimation.com",
+      "models": ["funimation-recommendations"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch AI",
+      "logo": "/logos/twitch.svg",
+      "description": "Amazon's AI for live streaming",
+      "website": "https://www.twitch.tv",
+      "models": ["twitch-recommendations"],
+      "categories": ["video", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "vimeo",
+      "name": "Vimeo AI",
+      "logo": "/logos/vimeo.svg",
+      "description": "Vimeo's AI for video hosting",
+      "website": "https://vimeo.com",
+      "models": ["vimeo-recommendations"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "dailymotion",
+      "name": "Dailymotion AI",
+      "logo": "/logos/dailymotion.svg",
+      "description": "Dailymotion's AI for video sharing",
+      "website": "https://www.dailymotion.com",
+      "models": ["dailymotion-recommendations"],
+      "categories": ["video"],
+      "status": "active"
+    },
+    {
+      "id": "canva",
+      "name": "Canva AI",
+      "logo": "/logos/canva.svg",
+      "description": "Canva's AI for design",
+      "website": "https://www.canva.com",
+      "models": ["canva-magic-design"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "figma",
+      "name": "Figma AI",
+      "logo": "/logos/figma.svg",
+      "description": "Figma's AI for design collaboration",
+      "website": "https://www.figma.com",
+      "models": ["figma-autolayout"],
+      "categories": ["image"],
+      "status": "active"
+    },
+    {
+      "id": "sketch",
+      "name": "Sketch AI",
+      "logo": "/logos/sketch.svg",
+      "description": "Sketch's AI for UI design",
+      "website": "https://www.sketch.com",
+      "models": ["sketch-runner"],
+      "categories": ["image"],
+      "status": "active"
+    },
+    {
+      "id": "invision",
+      "name": "InVision AI",
+      "logo": "/logos/invision.svg",
+      "description": "InVision's AI for design prototyping",
+      "website": "https://www.invisionapp.com",
+      "models": ["invision-dsm"],
+      "categories": ["image"],
+      "status": "active"
+    },
+    {
+      "id": "framer",
+      "name": "Framer AI",
+      "logo": "/logos/framer.svg",
+      "description": "Framer's AI for interactive design",
+      "website": "https://www.framer.com",
+      "models": ["framer-components"],
+      "categories": ["image", "video"],
+      "status": "active"
+    },
+    {
+      "id": "webflow",
+      "name": "Webflow AI",
+      "logo": "/logos/webflow.svg",
+      "description": "Webflow's AI for web design",
+      "website": "https://webflow.com",
+      "models": ["webflow-cms"],
+      "categories": ["image", "text"],
+      "status": "active"
+    },
+    {
+      "id": "squarespace",
+      "name": "Squarespace AI",
+      "logo": "/logos/squarespace.svg",
+      "description": "Squarespace's AI for website building",
+      "website": "https://www.squarespace.com",
+      "models": ["squarespace-fluid-engine"],
+      "categories": ["image", "text"],
+      "status": "active"
+    },
+    {
+      "id": "wix",
+      "name": "Wix AI",
+      "logo": "/logos/wix.svg",
+      "description": "Wix's AI for website creation",
+      "website": "https://www.wix.com",
+      "models": ["wix-adi"],
+      "categories": ["image", "text"],
+      "status": "active"
+    },
+    {
+      "id": "wordpress",
+      "name": "WordPress AI",
+      "logo": "/logos/wordpress.svg",
+      "description": "WordPress' AI for content management",
+      "website": "https://wordpress.com",
+      "models": ["wordpress-gutenberg"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "medium",
+      "name": "Medium AI",
+      "logo": "/logos/medium.svg",
+      "description": "Medium's AI for content publishing",
+      "website": "https://medium.com",
+      "models": ["medium-recommendations"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "substack",
+      "name": "Substack AI",
+      "logo": "/logos/substack.svg",
+      "description": "Substack's AI for newsletter publishing",
+      "website": "https://substack.com",
+      "models": ["substack-discovery"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "ghost",
+      "name": "Ghost AI",
+      "logo": "/logos/ghost.svg",
+      "description": "Ghost's AI for blogging",
+      "website": "https://ghost.org",
+      "models": ["ghost-editor"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "typeform",
+      "name": "Typeform AI",
+      "logo": "/logos/typeform.svg",
+      "description": "Typeform's AI for form creation",
+      "website": "https://www.typeform.com",
+      "models": ["typeform-logic"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "surveymonkey",
+      "name": "SurveyMonkey AI",
+      "logo": "/logos/surveymonkey.svg",
+      "description": "SurveyMonkey's AI for survey creation",
+      "website": "https://www.surveymonkey.com",
+      "models": ["surveymonkey-question-bank"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "googleforms",
+      "name": "Google Forms AI",
+      "logo": "/logos/googleforms.svg",
+      "description": "Google's AI for form creation",
+      "website": "https://forms.google.com",
+      "models": ["forms-smart-analysis"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "microsoftforms",
+      "name": "Microsoft Forms AI",
+      "logo": "/logos/microsoftforms.svg",
+      "description": "Microsoft's AI for form creation",
+      "website": "https://forms.microsoft.com",
+      "models": ["forms-insights"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "airtable",
+      "name": "Airtable AI",
+      "logo": "/logos/airtable.svg",
+      "description": "Airtable's AI for database management",
+      "website": "https://airtable.com",
+      "models": ["airtable-automation"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "notion",
+      "name": "Notion AI",
+      "logo": "/logos/notion.svg",
+      "description": "Notion's AI for workspace management",
+      "website": "https://www.notion.so",
+      "models": ["notion-ai-writer"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "coda",
+      "name": "Coda AI",
+      "logo": "/logos/coda.svg",
+      "description": "Coda's AI for document collaboration",
+      "website": "https://coda.io",
+      "models": ["coda-packs"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "roam",
+      "name": "Roam Research AI",
+      "logo": "/logos/roam.svg",
+      "description": "Roam's AI for knowledge management",
+      "website": "https://roamresearch.com",
+      "models": ["roam-graph"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian AI",
+      "logo": "/logos/obsidian.svg",
+      "description": "Obsidian's AI for note-taking",
+      "website": "https://obsidian.md",
+      "models": ["obsidian-plugins"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "logseq",
+      "name": "Logseq AI",
+      "logo": "/logos/logseq.svg",
+      "description": "Logseq's AI for knowledge graphs",
+      "website": "https://logseq.com",
+      "models": ["logseq-queries"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "remnote",
+      "name": "RemNote AI",
+      "logo": "/logos/remnote.svg",
+      "description": "RemNote's AI for spaced repetition",
+      "website": "https://www.remnote.com",
+      "models": ["remnote-flashcards"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "anki",
+      "name": "Anki AI",
+      "logo": "/logos/anki.svg",
+      "description": "Anki's AI for flashcard learning",
+      "website": "https://apps.ankiweb.net",
+      "models": ["anki-algorithm"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "quizlet",
+      "name": "Quizlet AI",
+      "logo": "/logos/quizlet.svg",
+      "description": "Quizlet's AI for study tools",
+      "website": "https://quizlet.com",
+      "models": ["quizlet-q-chat"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "khan",
+      "name": "Khan Academy AI",
+      "logo": "/logos/khan.svg",
+      "description": "Khan Academy's AI for education",
+      "website": "https://www.khanacademy.org",
+      "models": ["khan-coach"],
+      "categories": ["text", "video"],
+      "status": "active"
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera AI",
+      "logo": "/logos/coursera.svg",
+      "description": "Coursera's AI for online learning",
+      "website": "https://www.coursera.org",
+      "models": ["coursera-recommendations"],
+      "categories": ["text", "video"],
+      "status": "active"
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy AI",
+      "logo": "/logos/udemy.svg",
+      "description": "Udemy's AI for course recommendations",
+      "website": "https://www.udemy.com",
+      "models": ["udemy-recommendations"],
+      "categories": ["text", "video"],
+      "status": "active"
+    },
+    {
+      "id": "edx",
+      "name": "edX AI",
+      "logo": "/logos/edx.svg",
+      "description": "edX's AI for online education",
+      "website": "https://www.edx.org",
+      "models": ["edx-personalized-learning"],
+      "categories": ["text", "video"],
+      "status": "active"
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo AI",
+      "logo": "/logos/duolingo.svg",
+      "description": "Duolingo's AI for language learning",
+      "website": "https://www.duolingo.com",
+      "models": ["duolingo-adaptive-learning"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "babel",
+      "name": "Babbel AI",
+      "logo": "/logos/babel.svg",
+      "description": "Babbel's AI for language learning",
+      "website": "https://www.babbel.com",
+      "models": ["babbel-speech-recognition"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "busuu",
+      "name": "Busuu AI",
+      "logo": "/logos/busuu.svg",
+      "description": "Busuu's AI for language learning",
+      "website": "https://www.busuu.com",
+      "models": ["busuu-corrections"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "memrise",
+      "name": "Memrise AI",
+      "logo": "/logos/memrise.svg",
+      "description": "Memrise's AI for language learning",
+      "website": "https://www.memrise.com",
+      "models": ["memrise-spaced-repetition"],
+      "categories": ["text", "audio", "image"],
+      "status": "active"
+    },
+    {
+      "id": "lingvo",
+      "name": "Lingvo Translator AI",
+      "logo": "/logos/lingvo.svg",
+      "description": "ABBYY's AI for translation",
+      "website": "https://www.lingvo.ru",
+      "models": ["lingvo-neural"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL AI",
+      "logo": "/logos/deepl.svg",
+      "description": "DeepL's AI for translation",
+      "website": "https://www.deepl.com",
+      "models": ["deepl-translator"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "googletranslate",
+      "name": "Google Translate AI",
+      "logo": "/logos/googletranslate.svg",
+      "description": "Google's AI for translation",
+      "website": "https://translate.google.com",
+      "models": ["google-neural-machine-translation"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "microsofttranslator",
+      "name": "Microsoft Translator AI",
+      "logo": "/logos/microsofttranslator.svg",
+      "description": "Microsoft's AI for translation",
+      "website": "https://www.bing.com/translator",
+      "models": ["microsoft-translator"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "yandex",
+      "name": "Yandex Translate AI",
+      "logo": "/logos/yandex.svg",
+      "description": "Yandex's AI for translation",
+      "website": "https://translate.yandex.com",
+      "models": ["yandex-translate"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "papago",
+      "name": "Papago AI",
+      "logo": "/logos/papago.svg",
+      "description": "Naver's AI for translation",
+      "website": "https://papago.naver.com",
+      "models": ["papago-nmt"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "baidu",
+      "name": "Baidu Translate AI",
+      "logo": "/logos/baidu.svg",
+      "description": "Baidu's AI for translation",
+      "website": "https://fanyi.baidu.com",
+      "models": ["baidu-translate"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "tencent",
+      "name": "Tencent Translator AI",
+      "logo": "/logos/tencent.svg",
+      "description": "Tencent's AI for translation",
+      "website": "https://fanyi.qq.com",
+      "models": ["tencent-translate"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "alibaba",
+      "name": "Alibaba Translate AI",
+      "logo": "/logos/alibaba.svg",
+      "description": "Alibaba's AI for translation",
+      "website": "https://translate.alibaba.com",
+      "models": ["alibaba-machine-translation"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "huawei",
+      "name": "Huawei Translate AI",
+      "logo": "/logos/huawei.svg",
+      "description": "Huawei's AI for translation",
+      "website": "https://translator.huawei.com",
+      "models": ["huawei-translate"],
+      "categories": ["text"],
+      "status": "active"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung AI",
+      "logo": "/logos/samsung.svg",
+      "description": "Samsung's AI for mobile devices",
+      "website": "https://www.samsung.com",
+      "models": ["samsung-bixby"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi AI",
+      "logo": "/logos/xiaomi.svg",
+      "description": "Xiaomi's AI for smart devices",
+      "website": "https://www.mi.com",
+      "models": ["xiaomi-ai-assistant"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "huawei",
+      "name": "Huawei AI",
+      "logo": "/logos/huawei.svg",
+      "description": "Huawei's AI for mobile and cloud",
+      "website": "https://www.huawei.com",
+      "models": ["huawei-petal-ml"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "oppo",
+      "name": "OPPO AI",
+      "logo": "/logos/oppo.svg",
+      "description": "OPPO's AI for smartphones",
+      "website": "https://www.oppo.com",
+      "models": ["oppo-ai-assistant"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "vivo",
+      "name": "Vivo AI",
+      "logo": "/logos/vivo.svg",
+      "description": "Vivo's AI for mobile devices",
+      "website": "https://www.vivo.com",
+      "models": ["vivo-ai-assistant"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "realme",
+      "name": "Realme AI",
+      "logo": "/logos/realme.svg",
+      "description": "Realme's AI for smartphones",
+      "website": "https://www.realme.com",
+      "models": ["realme-ai-assistant"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "oneplus",
+      "name": "OnePlus AI",
+      "logo": "/logos/oneplus.svg",
+      "description": "OnePlus' AI for mobile devices",
+      "website": "https://www.oneplus.com",
+      "models": ["oneplus-ai-assistant"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "asus",
+      "name": "ASUS AI",
+      "logo": "/logos/asus.svg",
+      "description": "ASUS' AI for computers and devices",
+      "website": "https://www.asus.com",
+      "models": ["asus-ai-suite"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "acer",
+      "name": "Acer AI",
+      "logo": "/logos/acer.svg",
+      "description": "Acer's AI for laptops and devices",
+      "website": "https://www.acer.com",
+      "models": ["acer-ai-assistant"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "lenovo",
+      "name": "Lenovo AI",
+      "logo": "/logos/lenovo.svg",
+      "description": "Lenovo's AI for computers",
+      "website": "https://www.lenovo.com",
+      "models": ["lenovo-smart-assistant"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "dell",
+      "name": "Dell AI",
+      "logo": "/logos/dell.svg",
+      "description": "Dell's AI for enterprise computing",
+      "website": "https://www.dell.com",
+      "models": ["dell-ai-factory"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "hp",
+      "name": "HP AI",
+      "logo": "/logos/hp.svg",
+      "description": "HP's AI for printing and computing",
+      "website": "https://www.hp.com",
+      "models": ["hp-smart-print"],
+      "categories": ["text", "image"],
+      "status": "active"
+    },
+    {
+      "id": "canon",
+      "name": "Canon AI",
+      "logo": "/logos/canon.svg",
+      "description": "Canon's AI for imaging",
+      "website": "https://www.canon.com",
+      "models": ["canon-ai-assistant"],
+      "categories": ["image"],
+      "status": "active"
+    },
+    {
+      "id": "nikon",
+      "name": "Nikon AI",
+      "logo": "/logos/nikon.svg",
+      "description": "Nikon's AI for photography",
+      "website": "https://www.nikon.com",
+      "models": ["nikon-scene-recognition"],
+      "categories": ["image"],
+      "status": "active"
+    },
+    {
+      "id": "sony",
+      "name": "Sony AI",
+      "logo": "/logos/sony.svg",
+      "description": "Sony's AI for entertainment and imaging",
+      "website": "https://www.sony.com",
+      "models": ["sony-imaging-ai"],
+      "categories": ["image", "audio", "video"],
+      "status": "active"
+    },
+    {
+      "id": "panasonic",
+      "name": "Panasonic AI",
+      "logo": "/logos/panasonic.svg",
+      "description": "Panasonic's AI for consumer electronics",
+      "website": "https://www.panasonic.com",
+      "models": ["panasonic-ai-assistant"],
+      "categories": ["image", "audio", "video"],
+      "status": "active"
+    },
+    {
+      "id": "lg",
+      "name": "LG AI",
+      "logo": "/logos/lg.svg",
+      "description": "LG's AI for smart appliances",
+      "website": "https://www.lg.com",
+      "models": ["lg-thin-q-ai"],
+      "categories": ["image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung AI",
+      "logo": "/logos/samsung.svg",
+      "description": "Samsung's AI for smart home",
+      "website": "https://www.samsung.com",
+      "models": ["samsung-smartthings"],
+      "categories": ["text", "image", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "google",
+      "name": "Google Home AI",
+      "logo": "/logos/googlehome.svg",
+      "description": "Google's AI for smart home",
+      "website": "https://store.google.com",
+      "models": ["google-assistant"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "alexa",
+      "name": "Amazon Alexa AI",
+      "logo": "/logos/alexa.svg",
+      "description": "Amazon's AI for smart home",
+      "website": "https://www.amazon.com/alexa",
+      "models": ["alexa-skills"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "siri",
+      "name": "Apple Siri AI",
+      "logo": "/logos/siri.svg",
+      "description": "Apple's AI for voice assistant",
+      "website": "https://www.apple.com/siri",
+      "models": ["siri-intelligence"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "cortana",
+      "name": "Microsoft Cortana AI",
+      "logo": "/logos/cortana.svg",
+      "description": "Microsoft's AI for personal assistant",
+      "website": "https://www.microsoft.com/en-us/cortana",
+      "models": ["cortana-skills"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "bixby",
+      "name": "Samsung Bixby AI",
+      "logo": "/logos/bixby.svg",
+      "description": "Samsung's AI for voice assistant",
+      "website": "https://www.samsung.com/us/support/answer/ANS00076510",
+      "models": ["bixby-routines"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "googleassistant",
+      "name": "Google Assistant AI",
+      "logo": "/logos/googleassistant.svg",
+      "description": "Google's AI for voice assistant",
+      "website": "https://assistant.google.com",
+      "models": ["assistant-actions"],
+      "categories": ["text", "audio"],
+      "status": "active"
+    },
+    {
+      "id": "homepod",
+      "name": "Apple HomePod AI",
+      "logo": "/logos/homepod.svg",
+      "description": "Apple's AI for smart speaker",
+      "website": "https://www.apple.com/homepod",
+      "models": ["homepod-spatial-audio"],
+      "categories": ["audio"],
+      "status": "active"
+    }
+  ]
+}

@@ -1,12 +1,13 @@
-const mongoose = require('mongoose');
-
+// Mock database for demonstration - replace with actual database in production
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI);
-    console.log('MongoDB connected');
+    console.log('Mock database connected (for demonstration)');
+    // In production, replace this with actual database connection
+    return true;
   } catch (error) {
-    console.error('MongoDB connection error:', error);
-    process.exit(1);
+    console.error('Database connection error:', error);
+    // Don't exit in demo mode
+    return false;
   }
 };
 

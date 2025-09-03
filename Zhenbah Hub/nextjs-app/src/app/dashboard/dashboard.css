@@ -1,0 +1,62 @@
+.dashboard {
+  min-height: 100vh;
+  background: #0f0f0f;
+  color: #ffffff;
+}
+
+.dashboard-content {
+  display: flex;
+  height: calc(100vh - 64px);
+}
+
+.main-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 24px;
+}
+
+.login-prompt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #0f0f0f;
+}
+
+.login-card {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 12px;
+  padding: 40px;
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.login-title {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.login-subtitle {
+  color: #a1a1aa;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.login-link {
+  display: inline-block;
+  background: #0ea5e9;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.login-link:hover {
+  background: #0284c7;
+}
